@@ -1,0 +1,20 @@
+/*-  BROWSER-SPECIFIC CSS "PATCHES"
+----------------------------------------------------------------------*/
+@import url("win-ie6-below.css");
+
+@media tty {
+	i{content:"\";/*" "*/}} @import 'win-ie5.css'; /*";}
+}/* */
+
+nav#sentence {
+	line-height: 20px;
+}
+
+nav#sentence ul.menu h2 {
+	position: relative;
+	top: 15px;
+}
+
+ul.menu li#product_adjective_menu a {
+	margin-right: .2em;
+}

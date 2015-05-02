@@ -1,0 +1,122 @@
+/* @group Single Product Page */
+
+header#masthead nav,
+header#masthead div#facebook_like,
+footer#sitewide,
+#fdbk_tab,
+#initial_cta,
+div#thumbnails,
+div#actions_container,
+div#lojack_img_preload,
+#public_edit
+{
+	display: none;
+}
+
+body {
+	background-color: #FFF;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, cite, blockquote {
+	color: #000;
+}
+
+h1#logo, h1#logo a, h1#logo a:visited {
+	color: #000;
+	text-decoration: none;
+	text-align: right;
+	font-family: 'Helvetica', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+h1#logo span#reg {
+	display: none;
+}
+
+h1#logo:after {
+	content:  ".com® : Find a [something] for [someone].";
+}
+
+article#product, article#product div#desc_actions_container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+article#product section#description {
+	width: 100%;
+}
+
+article#product header hgroup h1#name {
+	color: #000;
+	font-family: 'Helvetica', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	border-top: 1px solid #000;
+	padding-top: .3em;
+}
+
+#primary_image {
+	width: 340px;
+}
+
+section#description p, section#description li, section#description cite, section#description blockquote {
+	font-family: Georgia, serif;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+section#availableat ul {
+	padding: 0;
+	margin: 0;
+}
+
+section#available_at ul li {
+	list-style-type: none;
+	list-style-position: outside;
+	padding: 0;
+	margin: 0;
+}
+
+section#available_at ul li h3 {
+	display: inline;
+	font-family: 'Helvetica', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+section#available_at ul li h3:after {
+	content: ": ";
+}
+
+section#available_at ul li a:link,
+section#available_at ul li a span.price,
+section#available_at ul li a:link span.price,
+section#available_at ul li a:visited span.price {
+	color: #000;
+	text-decoration: none;
+	font-family: Georgia, serif;
+}
+
+div#permalink {
+	display: block;
+	border-top: 1px solid #000;
+	line-height: 16px;
+	height: 16px;
+}
+
+div#permalink p {
+	font-size: 12px;
+	line-height: 16px;
+	color: #000;
+	font-family: Georgia, serif;
+}
+
+div#permalink p:before {
+	content: "Purchase at: ";
+}
+
+/* @end */

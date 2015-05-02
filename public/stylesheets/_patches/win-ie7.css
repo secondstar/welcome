@@ -1,0 +1,48 @@
+/* @group Contain float fix */
+
+*:first-child+html .group {
+	min-height: 1px;
+}
+
+/* @end */
+
+#logo:hover {
+	width: 260px;
+	height:47px;
+	top: 59px;
+	margin-left: 0;
+	background:url(http://assets.wantist.com/icons/wantist-logo3.png) center center no-repeat;
+	cursor: pointer;
+}
+
+header#masthead nav ul li a {
+	border: 1px solid #cecdc8 !important;
+	padding: 10px !important;
+}
+
+ul.menu li#product_adjective_menu a {
+	margin-right: .2em;
+}
+
+div#products {
+	z-index: 400;
+}
+
+
+div#products div.product_popout_info {
+	visibility: hidden;
+}
+
+#desc_actions_container {
+	clear: both;
+}
+
+section#available_at {
+	clear: both;
+	display: block;
+}
+
+section#description {
+	clear: both;
+	display: block;
+}

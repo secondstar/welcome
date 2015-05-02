@@ -1,0 +1,88 @@
+div#products {
+	padding-left: 6px;
+}
+
+div#products a.product {
+	display: inline;
+	float: none;
+	margin: 0 0 5px 0;
+	width: 74px;
+	height: 148px;
+}
+
+div#products div.product_popout_info {
+	background-color: #AEDEE4;
+	border: 3px solid #98A2B3;
+	top: 0px;
+}
+
+div#products a.product div.product_popout_info h2, div#products a.product:visited div.product_popout_info h2 {
+	color: #4B5266;
+}
+
+div#products div.product_popout_info span {
+	color: #4B5266;
+}
+
+div#products_loading, div#page_loading {
+	background-color: #AEDEE4;
+	border: 4px solid #69A1B9;
+}
+
+nav#sentence {
+	background-color: #AEDEE4;
+	border-top: 8px solid #69A1B9;
+	border-bottom: 8px solid #69A1B9;
+}
+
+div#sentence_bg {
+	background-color: #AEDEE4;
+	border-top: 8px solid #69A1B9;
+	border-bottom: 8px solid #69A1B9;
+}
+
+nav#sentence h2 {
+	color: #4B5266;
+}
+
+#sentence .submenu li {
+	background-color: #AEDEE4;
+}
+
+article#product h1#name {
+	color: #353536;
+}
+
+article#product h4#initial_cta {
+	color: #4B5266;
+}
+
+article#product header hgroup h4#initial_cta a:link, article#product header hgroup h4#initial_cta a:visited {
+	color: #4B5266;
+}
+
+article#product header hgroup h4#initial_cta a:hover, article#product h4#initial_cta:hover {
+	background-color: #DEC522;
+}
+
+article#product section#description blockquote {
+	border-top: 6px solid #C0BFBB;
+	border-bottom: 6px solid #C0BFBB;
+}
+
+article#product div.actions {
+	background-color: #DCDBD6;
+	border: 1px solid #D2D2CF;
+}
+
+article#product section#available_at ul li h3 {
+	color: #353536;
+}
+
+article#product section#available_at ul li a {
+	color: #4B5266;
+}
+
+#public_edit:hover {
+	color: #C02942;
+}

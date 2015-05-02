@@ -1,0 +1,153 @@
+* { margin: 0; padding: 0; }
+html, body { height: 100%; color: #c4c4c4; font: 11px/1.4 Georgia, Serif; }
+html { background-color: black; }
+body { background-color: rgb(1,1,1,1.0); }
+/*body { background: url(/images/monorail_epcot.jpg) top center no-repeat; }*/
+/* http://www.flickr.com/photos/limebye/3775235515/in/photostream/ */
+header, section, footer, aside, nav, article, figure { display: block; }             
+
+.inside { width: 760px; padding: 0 20px; margin: 0 auto; position: relative;}
+
+a { outline: 0; text-decoration: none; color: white; }
+a img { border: 0; }
+p { margin: 0 0 10px 0; background-color: #222; background-color: rgba(0,0,0,0.5); padding: 8px; }
+h1, h2, h3, h4, h5 { margin: 0 0 10px 0; }
+h2 { color: #c4c4c4; text-transform: uppercase; font-size: 15px; text-shadow: 0 1px #736d69; letter-spacing: 1px; }
+/*h2 { color: #211f1e; text-transform: uppercase; font-size: 15px; text-shadow: 0 1px #736d69; letter-spacing: 1px; }
+*/h3 { color: white; font-size: 24px; }
+
+header, footer { width: 100%; }
+header { background: url(/images/header-bg.png) repeat-x; position: relative; top: 70px; height: 150px; }
+footer { background: url(/images/footer-bg.png) repeat-x; height: 78px; }
+
+.wrap { height: 390px; }
+
+header h1, header h2 { margin: 0; }
+header h1 a, header h2 a { z-index: 40; }
+header h1 a { display: block; width: 240px; height: 54px; position: absolute; left: 20px; top: 33px; background: url(/images/wdwlogo.png) no-repeat; text-indent: -9999px; }
+header h2 a { display: block; width: 259px; height: 128px; position: absolute; right: 0; top: -2px; background: url(/images/featured.png) no-repeat; text-indent: -9999px; }
+
+#bio, #about, #contact, #photos, #shows, #pdfs { display: none; overflow: auto; position: absolute; top: 0px; left: 20px; width: 425px; height: 100%; }
+
+#upcoming { position: absolute; left: 20px; top: 70px; width: 210px; z-index: 30; }
+#upcoming ul { list-style: none; }
+#upcoming ul li { margin: 0 0 3px 0; background: #222; background: rgba(0,0,0,0.5); padding: 5px; position: relative; }
+#upcoming ul li .date { display: block; color: white; font-weight: bold; }
+#upcoming ul li .time { display: none; }
+#upcoming ul li .city { position: absolute; top: 5px; right: 5px; }
+
+#sample { position: absolute; left: 541px; top: 70px; width: 180px; z-index: 30; }
+#sample ul, #pdfs ul { list-style: none; }
+#sample ul li, #pdfs ul li { margin: 0 0 3px 0; }
+#sample ul li a, #pdfs ul li a { color: white; -moz-border-radius: 8px; -webkit-border-radius: 5px; display: block; padding: 3px 3px 3px 25px; height: 16px; vertical-align: middle; margin: 0 6px 0 0; background-color: #222; background-color: rgba(0,0,0,0.5); background-image: url(/images/play.png); background-position: 5px center; background-repeat: no-repeat; }
+#sample ul li a:hover, #pdfs ul li a:hover { background-color: #555; background-color: rgba(0,0,0,0.7); }
+.sm2_paused { background-image: url(/images/pause.png) !important; background-repeat: no-repeat; }
+.sm2_playing { background-color: #333 !important; background-color: rgba(0,0,0,0.9) !important; }
+
+#pdfs { left: 500px; width: 125px; }
+#pdfs ul li a { background-image: url(/images/icon_pdf.png); }
+
+#bio p, #about p { text-shadow: 0 1px rgba(0,0,0,0.7); font-size: 14px; }
+
+#about { }
+#about ul { padding: 0 0 80px 0; list-style: none; }
+#about ul li { margin: 0 0 3px 0; }
+#about ul li a {  -webkit-transition: all 0.2s linear; }
+#about ul li a:hover { padding-left: 10px; }
+#about ul li a:hover span { color: #d05353; }
+#about h2 { text-align: left; }
+
+#contact { overflow: hidden; }
+
+#photos { top: -500px; left: 385px; }
+#photos a { opacity: 0.75; }
+#photos a img { border: 0; float: left; margin: 0 5px 5px 0; }
+#photos a:hover { opacity: 1; }
+
+#shows ul { display: table; width: 100%; }
+#shows li { display: table-row; background: rgba(0,0,0,0.5); }
+#shows li span { display: table-cell; padding: 5px; font-size: 14px; border-bottom: 1px solid black; }
+#shows li .date { color: white; font-weight: bold; }
+#shows li .time {  }
+#shows li .city {  }
+#shows li .venue {  }
+
+#mcgarry { position: absolute; bottom: 35px; left: 110px; z-index: 0; }
+footer { z-index: 20; }
+footer nav { padding: 30px 0 0 0; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 8px;
+	background-color: rgba(0, 0, 0, 0.6);
+	}
+footer nav ul { list-style: none; text-align: center; }
+footer nav ul li { display: inline; }
+footer nav ul li a { color: #c4c4c4; margin: 0 14px; text-transform: uppercase; font-size: 13px; letter-spacing: 1px; }
+footer nav ul li a.current { border-bottom: 1px solid #c4c4c4; }
+footer nav ul li a:hover { color: white; }
+footer nav ul li a img { vertical-align: middle; position: relative; top: -2px; }
+
+.jScrollPaneContainer {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	padding-right: 15px;
+}
+
+.jScrollPaneTrack {
+	position: absolute;
+	cursor: pointer;
+	right: 0;
+	top: 0;
+	height: 100%;
+	background: #aaa;
+}
+.jScrollPaneDrag {
+	position: absolute;
+	background: #666;
+	cursor: pointer;
+	overflow: hidden;
+}
+.jScrollPaneDragTop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.jScrollPaneDragBottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+a.jScrollArrowUp {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	/*background-color: #666;*/
+	height: 9px;
+}
+a.jScrollArrowUp:hover {
+	/*background-color: #f60;*/
+}
+
+a.jScrollArrowDown {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	/*background-color: #666;*/
+	height: 9px;
+}
+a.jScrollArrowDown:hover {
+	/*background-color: #f60;*/
+}
+a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
+	/*background-color: #f00;*/
+}
